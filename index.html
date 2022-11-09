@@ -1,175 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <link rel="stylesheet" href=".\css\style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <title>Lenguajes de programación</title>
-
+    <title>Pagina principal</title>
+    <link rel="shortcut icon" href="/Images/tecnm.png">
+    <link rel="stylesheet" href="/CSS/bootstrap.min.css">
+    
 </head>
+
 <body>
-
-    <div class="head">
-
-        <div class="logo">
-            <a href="#">Lenguajes de programación</a>
+    <!--
+    Encabezado de cada una de las paginas de las cuales redireciona a la seleccionada.
+-->
+    <header>
+        <div class="container-fluid bg-dark">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="./index.html" _msthash="1864577" _msttexthash="381446">Inicio</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false"
+                            aria-label="Toggle navigation" _msthidden="A" _msthiddenattr="1739842"
+                            _mstaria-label="320099">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarColor02">
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./php.html" _msthash="623155"
+                                        _msttexthash="136006">PHP</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./python.html" _msthash="623155"
+                                        _msttexthash="136006">Phyton</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./ruby.html" _msthash="623337"
+                                        _msttexthash="95589">Ruby</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./Csharp.html" _msthash="623337"
+                                        _msttexthash="95589">C#</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./NodeJS.html" _msthash="623337"
+                                        _msttexthash="95589">NodeJS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" _msthash="623519" _msttexthash="107419"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
         </div>
+    </header>
 
-        <nav class="navbar">
-            <a href="./index.html">Inicio</a>
-            <a href="./PHP.html">PHP</a>
-            <a href="./PYTHON.html">PYTHON</a>
-            <a href="./RUBY.html">RUBY</a>
-            <a href="./Csharp.html">C#</a>
-            <a href="./NODEJS.html">NODE JS</a>
-        </nav>
-
+    <!--
+    Carrusel de imagenes sobre los lenguajes de programacion a hablar.
+-->
+<div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <a href="/pages/php.html"><img src="/backgrounds/php.webp" class="d-block w-100" alt="..."></a>
+        </div>
+        <div class="carousel-item">
+            <a href="/pages/NodeJS.html"><img src="/backgrounds/nodejs.jpg" class="d-block w-100" alt="..."></a>
+        </div>
+        <div class="carousel-item">
+            <a href="/pages/Csharp.html"><img src="/backgrounds/c2.png" class="d-block w-100" alt="..."></a>
+        </div>
+        <div class="carousel-item">
+            <a href="/pages/python.html"><img src="/backgrounds/python-logo.png" class="d-block w-100" alt="..." style="height: 595px;"></a>
+        </div>
+        <div class="carousel-item"><a href="/pages/ruby.html">
+            <img src="/backgrounds/ruby.png" class="d-block w-100" alt="..."></a>
+        </div>
     </div>
-  
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
 
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="img/php.webp" class="d-block w-100" alt="...">
+    <!--
+    Informacion general sobre que es un lenguaje de programacion.
+-->
+    <div class="container mt-4 text-black">
+        <div class="col-11">
+            <h1 _msthash="1217125" _msttexthash="616239"><b>Lenguajes de programacion.</b></h1>
+            <h3 class="mt-4">
+                <b>¿Qué es un lenguaje de programación?</b>
+            </h3>
+            <p class="lead" _msthash="1170533" _msttexthash="3134703">
+                Un lenguaje de programación es un lenguaje formal (o artificial, es decir, un lenguaje con reglas
+                gramaticales bien definidas) que le proporciona a una persona, en este caso el programador, la
+                capacidad de escribir (o programar) una serie de instrucciones o secuencias de órdenes en forma de
+                algoritmos con el fin de controlar el comportamiento físico o lógico de un sistema informático.
+            </p>
         </div>
-        <div class="carousel-item">
-          <img src="img/python-logo.png" class="d-block w-100" alt="...">
-        </div>
-       
-        <div class="carousel-item">
-          <img src="img/ruby.png" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="img/c2.png" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="img/nodejs.jpg" class="d-block w-100" alt="...">
-        </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
 
+        <h3 class="mt-5">
+            <b>Tipos de lenguaje de programación</b>
+        </h3>
 
-      <section class="content sau">
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <h1 class="title">HAAMM</h1>
-        <h1 class="title">Nuestro Equipo</h1>
-        <div class="box-container">
-
-            <div class="box">
-                <img src=".\img\Ani.jfif" height="50%" width="41%" alt="profile picturec" class="profile">
-                <h3>Ana Lucia Pech Perez</h3>
-                <p>Tester, Documentacion</p>
-            </div>
-            <div class="box">
-                 <img src=".\img\mariana.jfif" height="50%" width="41%" alt="profile picturec" class="profile">
-                <h3>Mariana Perez Ucan</h3>
-                <p>Tester, Documentacion</p>
-            </div>
-            <div class="box">
-                <img src=".\img\henry.jfif" height="50%" width="39%" alt="profile picturec" class="profile">
-                <h3>Henry Efrain Torres Esquivel</h3>
-                <p>Documentacion, Programador</p>
-            </div>
-            <div class="box">
-                <img src=".\img\manu.jfif" height="50%" width="39%" alt="profile picturec" class="profile">
-                <h3>Manuel Ricardo Uc Nicoli</h3>
-                <p>Programdor, DBA</p>
-            </div>
-            <div class="box">
-                <img src=".\img\AngelCanche.jpeg" height="50%" width="39%" alt="profile picturec" class="profile">
-                <h3>Angel Mariano Uicab Canche</h3>
-                <p>Programdor, DBA</p>
-            </div>
-
-
-        </div>
-        <br>
-        <br>
-        <br>
-        <br>
-    </section>
-   
-    <footer>
-        <div class="container">
-            <div class="content sau">
-
-                <div class="footer-content-about">
-                    <h4 class="title">Más Info.</h4>
-                    <div class="circle">
-                        <i class="fas fa-circle"></i>
-                    </div>
-                    <p>Somos un grupo de Freelancers, dedicados a 
-                        la creación de desarrollo de software para la automatización y 
-                        solución de problemas que requiera una empresa o negocio.</p>
-                </div>
-                <div class="footer-div">
-                    <div class="social-media">
-                        <h4 class="title">Siguenos</h4>
-                        <ul class="social-icons">
-                            <li>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fab fa-facebook-square"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="title"> Contacto</h4>
-                        <form action="" class="news-form">
-                            <input type="text" class="news-input"
-                            placeholder="Escribe tu email"
-                            >
-                            <button class="news-btn" type="submit">
-                                <i class="fas fa-envelope"></i>
-                            </button>
-                        </form>
+        <div class="row">
+            <div class="col-4">
+                <div class="card text-white bg-info mb-3" style="max-width: 20rem;">
+                    <div class="card-body">
+                        <h4 class="card-header">Lenguaje de bajo nivel.</h4>
+                        <p class="card-text">Se trata de lenguajes de programación que están diseñados para un hardware
+                            específico y que por lo tanto no pueden migrar o exportarse a otros computadores. Sacan el
+                            mayor provecho posible al sistema para el que fueron diseñados, pero no aplican para ningún
+                            otro
+                        </p>
                     </div>
                 </div>
+            </div>
 
+            <div class="col-4">
+                <div class="card bg-light mb-3" style="max-width: 20rem;">
+                    <div class="card-body">
+                        <h4 class="card-header">Lenguajes de nivel medio.</h4>
+                        <p class="card-text">Este término no siempre es aceptado, que propone lenguajes de programación
+                            que se ubican en un punto medio entre los dos anteriores: pues permite operaciones de alto
+                            nivel y a la vez la gestión local de la arquitectura del sistema.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="card text-white bg-dark mb-3" style="max-width: 20rem;">
+                    <div class="card-body">
+                        <h4 class="card-header">Lenguajes de alto nivel.</h4>
+                        <p class="card-text">Se trata de lenguajes de programación que aspiran a ser un lenguaje más
+                            universal, por lo que pueden emplearse indistintamente de la arquitectura del hardware, es
+                            decir, en diversos tipos de sistemas. Los hay de propósito general y de propósito
+                            específico.</p>
+                    </div>
+                </div>
             </div>
         </div>
+    </div>
+
+    <!--
+    Footer del index.html
+-->
+    <footer class="mt-3 bg-black d-flex justify-content-center">
+        <p>Autor: <b>Manuel Uc - Angel Canche</b></p>
     </footer>
 
-    <script>
-
-        const selectElement = function(element) {
-            return document.querySelector(element);
-        }
-
-
-        let menuToggle = selectElement('.menu-toggle');
-        let body = selectElement('body');
-
-        menuToggle.addEventListener('click', function(){
-            body.classList.toggle('open');
-        })
-
-    </script>
-    
-
-
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<!--
+    Scripts para las vistas
+-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
